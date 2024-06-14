@@ -13,6 +13,7 @@
     "@vercel/postgres": "^0.5.1",
     "autoprefixer": "10.4.15",
     "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "clsx": "^2.0.0",
     "next": "^14.0.2",
     "postcss": "8.4.31",
@@ -36,12 +37,5 @@
   },
   "engines": {
     "node": ">=18.17.0"
-  },
-  "scripts": {
-  "build": "next build",
-  "dev": "next dev",
-  "start": "next start",
-  "seed": "node -r dotenv/config ./scripts/seed.js"
-}
-
+  }
 }
